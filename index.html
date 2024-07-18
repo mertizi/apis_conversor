@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Monedas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Convertidor de Divisas</h1>
+    <hr>
+    <div id="money-exchange-container" class="container"></div>
+
+    <div class="container">
+        <input type="number" id="amount-input" placeholder="Cantidad en Pesos Chilenos" step="1" min="1" />
+        <button id="convert-button">Convertir</button>
+    </div>
+
+    <div id="conversion-result" class="container">
+        <p id="conversion-text"></p>
+    </div>
+    <button id="show-chart">
+        Mostrar Gráfica
+    </button>
+
+    <div>
+        <canvas id="chart-container"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

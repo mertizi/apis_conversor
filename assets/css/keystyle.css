@@ -1,0 +1,24 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: solid 1px black;
+    background-color: white;
+  }
+  
+  body {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+  }
+  
+  div {
+    margin: 15px 0;
+  }
+  
+  
+  .dynamic-div {
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+  }
